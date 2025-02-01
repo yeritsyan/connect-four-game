@@ -1,14 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './modal.css'
+import React from "react";
+import ReactDOM from "react-dom";
+import "./modal.css";
 
-const Modal = ({children, setPause}) => {
+const Modal = ({ children, setPause }) => {
   return ReactDOM.createPortal(
-    <div className='modal__container' onClick={() => setPause(false)} >
-        {children}
+    <div className="modal__container" onClick={() => setPause(false)}>
+      {children}
     </div>,
-    document.getElementById('modal')
-  )
-}
+    document.getElementById("modal")
+  );
+};
 
-export {Modal}
+export { Modal };
