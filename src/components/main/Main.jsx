@@ -1,4 +1,3 @@
-import React from "react";
 import LOGO from "../../assets/main-logo.png";
 import CPUICON from "../../assets/cpu-icon.png";
 import PLAYERICON from "../../assets/player-icon.png";

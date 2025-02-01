@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import TIMER1 from "../../assets/timer-1.png";
 import TIMER2 from "../../assets/timer-2.png";
 import "./timer.css";

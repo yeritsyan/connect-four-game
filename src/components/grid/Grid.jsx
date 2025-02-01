@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { ReactComponent as PLAYER2DISK } from "../../assets/player-2-disk.svg";
-import { ReactComponent as PLAYER1DISK } from "../../assets/player-1-disk.svg";
-import { ReactComponent as MARKER1 } from "../../assets/marker-1.svg";
-import { ReactComponent as MARKER2 } from "../../assets/marker-2.svg";
-import { ReactComponent as WINNERCIRCLE } from "../../assets/winner-circle.svg";
+import { useState, useEffect } from "react";
+import PLAYER2DISK from "../../assets/player-2-disk.svg?react";
+import PLAYER1DISK from "../../assets/player-1-disk.svg?react";
+import MARKER1 from "../../assets/marker-1.svg?react";
+import MARKER2 from "../../assets/marker-2.svg?react";
+import WINNERCIRCLE from "../../assets/winner-circle.svg?react";
 
 import { useCpuPlay } from "../../hooks/useCpuPlay";
 import { motion } from "framer-motion";

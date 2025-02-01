@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as OK } from "../../assets/ok.svg";
+import OK from "../../assets/ok.svg?react";
 import "./rules.css";
 
 const Rules = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import WINNER from "../../assets/winner.png";
 import "./winner.css";
 
