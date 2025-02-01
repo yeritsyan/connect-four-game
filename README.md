@@ -1,5 +1,15 @@
 # Connect-four-game
 
+## Setup
+
+1. Clone this repository
+2. Install dependencies `npm i`
+3. Start project locally with `npm run start`
+
+For building the project rin `npm run build`. This will build the react app into javascript files into the _/build_ folder
+
+# Documentation of original author
+
 ![win](https://user-images.githubusercontent.com/108543859/228317992-98ac180a-d415-4f98-828f-ae6f594c89fe.png)
 
 ## Table of contents / Tabla de contenidos
@@ -18,7 +28,7 @@
 
 It's a straightforward game - you just choose how you want to play and start playing. If you choose to play with the CPU, you will always be playing as the red team. Each player has 30 seconds to make a move; otherwise, the other player wins. Every disk you place will drop to the lowest part of the grid column. The one who place 4 disk in row no matter if horizontally, vertically or diagonally.
 
-This project is tagged as advanced in Frontend Mentor and is intended for premium users, so I         couldn't see the complete challenge. However, I decided to make it with the tools I had. I did this  project to prove my logic, knowledge, and my problem-solving approach at that moment.
+This project is tagged as advanced in Frontend Mentor and is intended for premium users, so I couldn't see the complete challenge. However, I decided to make it with the tools I had. I did this project to prove my logic, knowledge, and my problem-solving approach at that moment.
 
 ![game](https://user-images.githubusercontent.com/108543859/228317913-7bbb6507-8ca3-468d-8af5-df114e13873e.png)
 
@@ -34,29 +44,29 @@ To start, I looked at the public images and began to make vectors and designs wi
 
 - Create-react-app https://create-react-app.dev/
 
-    I used it to intiallize the project with React (A few days later I saw the news that CRA will not be supported anymore)
+  I used it to intiallize the project with React (A few days later I saw the news that CRA will not be supported anymore)
 
-- React https://es.reactjs.org/ 
+- React https://es.reactjs.org/
 
-    As the Frontend library, I used React with react-dom and used some React hooks like, useState, useEffect and customHook, I also used React-Portals to make the Pause component.
+  As the Frontend library, I used React with react-dom and used some React hooks like, useState, useEffect and customHook, I also used React-Portals to make the Pause component.
 
 - React-router-dom https://reactrouter.com/en/main
 
-    I wanted a way to handle routes in my app, and this library is very useful for this kind of project.
+  I wanted a way to handle routes in my app, and this library is very useful for this kind of project.
 
 - Framer-motion https://www.framer.com/motion/
 
-    I needed to animate the disk drop from the top when a column is clicked.
+  I needed to animate the disk drop from the top when a column is clicked.
 
 - Netlify https://www.netlify.com
 
-    Needed to deploy and publish project with free hosting and domain.
+  Needed to deploy and publish project with free hosting and domain.
 
 - Figma https://www.figma.com
 
-    I used Figma to make all vectors and images.
+  I used Figma to make all vectors and images.
 
-## Development / Desarrollo 
+## Development / Desarrollo
 
 1. I created the main component with 3 links to other components and styled them.
 
@@ -73,10 +83,12 @@ To start, I looked at the public images and began to make vectors and designs wi
 ## Contact / Contacto
 
 You can contact me:
+
 - Mail -> jprioses@outlook.com
 - Linkedin -> https://www.linkedin.com/in/jprioses/
 
 You can see my porftolio:
+
 - https://jprioses.github.io/Personal-React-Portfolio/
 
 ## Acknowledgements / Agradecimientos
