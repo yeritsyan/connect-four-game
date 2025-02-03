@@ -8,7 +8,7 @@ const Main = ({ setCpu }) => {
   return (
     <div className="main__container buttons__container">
       <div className="main__content">
-        <h1>Test title v2</h1>
+        <h1>Test title v3</h1>
         <img src={LOGO} className="main__logo" alt="logo"></img>
         <Link
           to={"/game"}
