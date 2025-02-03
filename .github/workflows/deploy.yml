@@ -40,9 +40,23 @@ jobs:
         with:
           name: "github-pages"
           path: dist
+  test:
+    runs-on: ubuntu-latest
+    needs: build # Ensure test runs after
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Dependencies
+        run: npm ci
+      - name: Run Test
+        run: npm run test
   deploy:
     runs-on: ubuntu-latest
-    needs: [build, lint] # Ensure deploy runs after build completes
+    needs: test # Ensure deploy runs after
     steps:
       - name: Download Artifacts
         uses: actions/download-artifact@v4
