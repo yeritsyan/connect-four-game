@@ -1,6 +1,6 @@
 # Connect-four-game
 
-## Setup
+## Setup Local
 
 1. Clone this repository
 2. Install dependencies `npm i`
@@ -8,8 +8,6 @@
 
 For building the project run `npm run build`. This will build the react app as _production_ version into javascript files into the _/build_ folder
 Afterwards you can run this production version with `npm run preview`
-
-To deploy on github-pages run `npm run deploy` (this will run the `predeploy` script automatically)
 
 # Documentation of original author
 

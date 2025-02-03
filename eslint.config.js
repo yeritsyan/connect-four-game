@@ -8,7 +8,7 @@ export default [
     files: ["**/*.{js,mjs,cjs,jsx}"],
   },
   {
-    ignores: ["dist/**"], // Ignore all files inside dist
+    ignores: ["dist/**", "**/*.test.js"], // Ignore all files inside dist
   },
   {
     languageOptions: {

@@ -3,12 +3,13 @@ import CPUICON from "../../assets/cpu-icon.png";
 import PLAYERICON from "../../assets/player-icon.png";
 import { Link } from "react-router-dom";
 import "./main.css";
+import GenerateTitle from "../../utils/generateTitle";
 
 const Main = ({ setCpu }) => {
   return (
     <div className="main__container buttons__container">
       <div className="main__content">
-        <h1>Test title v3</h1>
+        <h1>{GenerateTitle()}</h1>
         <img src={LOGO} className="main__logo" alt="logo"></img>
         <Link
           to={"/game"}
