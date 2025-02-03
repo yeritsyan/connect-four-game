@@ -42,6 +42,7 @@ jobs:
           path: dist
   deploy:
     runs-on: ubuntu-latest
+    needs: build # Ensure deploy runs after build completes
     steps:
       - name: Download Artifacts
         uses: actions/download-artifact@v4
