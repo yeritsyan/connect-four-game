@@ -22,7 +22,7 @@ jobs:
         run: npm ci
       - name: Build Project
         run: npm run lint
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source
@@ -40,9 +40,6 @@ jobs:
         with:
           name: "github-pages"
           path: dist
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
