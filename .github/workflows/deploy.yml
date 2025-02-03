@@ -43,6 +43,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Download Artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: "github-pages"
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         with:
