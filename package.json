@@ -15,6 +15,7 @@
     "build": "vite build",
     "test": "vitest --run",
     "lint": "npx eslint",
+    "audit": "npm audit",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
