@@ -10,6 +10,7 @@ const Main = ({ setCpu }) => {
     <div className="main__container buttons__container">
       <div className="main__content">
         <h1>{GenerateTitle()}</h1>
+        <h2>untertitel</h2>
         <img src={LOGO} className="main__logo" alt="logo"></img>
         <Link
           to={"/game"}
