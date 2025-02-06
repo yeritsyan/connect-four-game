@@ -1,5 +1,5 @@
 function GenerateTitle() {
-  return "4 Gewinnt test";
+  return "4 Gewinnt";
 }
 
 export default GenerateTitle;
